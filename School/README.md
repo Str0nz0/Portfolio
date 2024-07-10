@@ -1,4 +1,3 @@
-# Str0nz0.github.io
-3D Strona
+# School
 
-This is the repo for my website. School homework is mainly posted here but who knows, I might add something more in the future.
+This is the Folder for school projects and homework. It's insanely boring so you might as well ignore this.
