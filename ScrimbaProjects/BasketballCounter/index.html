@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basketball Counter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="counter">
+        <p id="home-counter">0</p>
+      </div>
+      <div class="counter">
+        <p id="guest-counter">0</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="button-row">
+        <h4 onclick="homeAddOne()">+1</h4>
+        <h4 onclick="homeAddTwo()">+2</h4>
+        <h4 onclick="homeAddThree()">+3</h4>
+      </div>
+      <div class="button-row">
+        <h4 onclick="guestAddOne()">+1</h4>
+        <h4 onclick="guestAddTwo()">+2</h4>
+        <h4 onclick="guestAddThree()">+3</h4>
+      </div>
+    </div>
+    <div class="container">
+      <h4 onclick="newGame()">NEW GAME</h4>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
