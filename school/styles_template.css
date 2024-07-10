@@ -1,0 +1,175 @@
+/*Config*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+html ::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --bg-col: #FFDBB5;
+    --footercol: #2D3047;
+}
+
+/*^Config*/
+
+/*Main Website Body*/
+header {
+    background: var(--footercol);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: var(--bg-col);
+    background-size: auto;
+    background-attachment: fixed;
+    margin: 0;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+main {
+    padding-top: 70px;
+    min-height: 90.7%;
+}
+
+footer {
+    background: var(--footercol);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 70px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*^Main Website Body*/
+
+/*Text*/
+h1 {
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 0px 0px 20px rgba(66, 68, 90, 1);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+/*^Text*/
+
+/*Wrapping blocks*/
+img,
+iframe {
+    width: 800px;
+    border: solid var(--footercol) 5px;
+}
+
+figure {
+    background-color: var(--footercol);
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+}
+
+iframe {
+    margin-top: 20px;
+    height: 445px;
+}
+
+img,
+figure,
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    transition: 0.3s all ease-out;
+}
+
+header {
+    box-shadow: 0px 7px 60px 4px rgba(0, 0, 0, 0.5);
+}
+
+img:hover,
+figure:hover,
+iframe:hover,
+footer {
+    box-shadow: 0px 0px 60px 4px rgba(0, 0, 0, 0.5);
+}
+
+figure img {
+    width: 800px;
+    margin: 0;
+}
+
+#figwimg {
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+/*^Wrapping blocks*/
+
+/*Links*/
+a,
+i {
+    transition: 0.3s all ease-out;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+figcaption a: {
+    text-decoration: underline;
+}
+
+/*^Links*/
+
+/*Classes*/
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    width: 100%;
+}
+
+/*^Classes*/
