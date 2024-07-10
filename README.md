@@ -1,2 +1,2 @@
 # Portfolio
-My FrontEnd Portfolio
+This is my Web Developement Portfolio, as of now featuring school projects (bullshit) and scrimba projects. In the future I plan to update this repo with actual websites that will make me hireable. Probably nothing to see here now...
