@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body {
+	height: 100vh;
+	font-family: "Comfortaa" ,sans-serif;
+	background-color: #b8b7b6;
+	color: white;
+	font-size: 36px;
+}
+
+img {
+	width: 800px;
+	border-radius: 25px;
+}
+
+p {
+	color: lime;
+}
+
+p span {
+	color: blue;
+	text-decoration: underline;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+    :root {
+        --bg-col: #FFDBB5;
+        --footercol: #2D3047;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        background: var(--bg-col);
+        background-size: cover;
+        margin: 0;
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 55px;
+    }
+
+    img {
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 800px;
+    }
+
+    p {
+        max-width: 55ch;
+    }
+
+    footer {
+        background: var(--footercol);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    figure {
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        text-align: center;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+
+    a:-webkit-any-link {
+        text-decoration: none;
+        color: white;
+        transition: 0.3s all ease-out;
+    }
+
+    a:hover {
+        color: black;
+        transition: 0.3s all ease-out;
+    }
+
+    figcaption a:-webkit-any-link {
+        text-decoration: underline;
+        color: black;
+        transition: 0.3s all ease-out;
+    }
+
+    figcaption a:hover {
+        color: skyblue;
+        transition: 0.3s all ease-out;
+    }
