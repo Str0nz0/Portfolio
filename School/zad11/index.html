@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekcja 11</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+    :root {
+        --bg-col: #FFDBB5;
+        --footercol: #2D3047;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        background: var(--bg-col);
+        background-size: cover;
+        margin: 0;
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 55px;
+    }
+
+    footer {
+        background: var(--footercol);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    table {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+
+    a:-webkit-any-link {
+        text-decoration: none;
+        color: white;
+        transition: 0.3s all ease-out;
+    }
+
+    a:hover {
+        color: black;
+        transition: 0.3s all ease-out;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Herby</h1>
+    <table>
+        <tr class="container">
+            <td>Kraków</td>
+            <td><img width="250" src="https://upload.wikimedia.org/wikipedia/commons/4/41/POL_Krak%C3%B3w_COA.svg"></td>
+        </tr>
+        <tr class="container">
+            <td>Wieliczka</td>
+            <td><img width="250" src="https://upload.wikimedia.org/wikipedia/commons/6/64/POL_Wieliczka_COA_1.svg"></td>
+        </tr>
+        <tr class="container">
+            <td>Niepołomice</td>
+            <td><img width="250" src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Herb_niepolomice.jpg"></td>
+        </tr>
+        <tr class="container">
+            <td>Katowice</td>
+            <td><img width="250" src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Katowice_Herb.svg"></td>
+        </tr>
+        <tr class="container">
+            <td>Łaziska Górne</td>
+            <td><img width="250" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/POL_%C5%81aziska_G%C3%B3rne_COA.svg/800px-POL_%C5%81aziska_G%C3%B3rne_COA.svg.png"></td>
+        </tr class="container">
+    </table>
+</body>
+<footer>
+    <h2><a href="https://str0nz0.github.io/">HOME</a></h2>
+</footer>
+
+</html

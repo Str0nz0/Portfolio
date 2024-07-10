@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+:root {
+	--purple: #4B0082;
+	--lite-purple: #9370DB;
+	--latte: #FFE4B5
+}
+
+body {
+	background-color: var(--latte);
+	font-family: "Helvetica";
+}
+
+header {
+	display: flex;
+}
+
+.baner {
+	background-color: var(--purple);
+	color: white;
+	width: 75%;
+	height: 100px;
+	font-size: 150%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	width: 25%;
+	height: 100px;
+}
+
+.latte {
+	display: flex;
+}
+
+.left {
+	width: 45%;
+	height: 300px;
+}
+
+.right {
+	width: 55%;
+	height: 300px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+
+main {
+	background-color: var(--purple);
+	color: white;
+	padding: 60px;
+}
+
+form {
+	margin: 40px;
+}
+
+table {
+	border: 1px dashed yellow;
+	text-align: center;
+	width: 90%;
+	margin-bottom: 305px;
+}
+
+tr:hover {
+	background-color: var(--lite-purple);
+	color: yellow;
+}
+
+a {
+	color: aqua;
+}
