@@ -1,0 +1,10 @@
+div#logo {
+  background-color: red;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 90px;
+  text-align: center;
+  text-shadow: silver 4px 4px 8px;
+  border: double silver;
+  letter-spacing: 20px;
+}
