@@ -25,5 +25,5 @@ body {
 }
 
 h1:hover {
-  cursor: pointer;
+  cursor: grab;
 }
